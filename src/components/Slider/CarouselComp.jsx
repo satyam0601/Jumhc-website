@@ -1,27 +1,31 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import img1 from './Images/day1.jpg';
-import img2 from './Images/map.jpg';
-import img3 from './Images/ropec.jpg';
-import img4 from './Images/cmp.jpg';
+
+
 function imageslider()
 {
   return(
     <div>
-      <Carousel>
-        <Carousel.Item>
-          <img src={img1} height="300px" width="300px" alt="img1" />
+      <Carousel interval="2000">
+        
+        <Carousel.Item >
+          <img className="img" src="day1.png.jpg" height="400px" width="100%" alt="img1"/>
+          <h2 className="text">First Day Of RCC</h2>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={img2} height="300px" width="300px" alt="img1" />
+          <img className="img"  src="rope.png.jpg" height="400px" width="100%" alt="img2"/>
+          <h2 className="text">Rope Class</h2>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={img3} height="300px" width="300px" alt="img1" />
+          <img className="img" src="map.png.jpg" height="400px" width="100%" alt="img3"/>
+          <h2 className="text">Map Class</h2>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={img4} height="300px" width="300px" alt="img1" />
+          <img className="img" src="cpm.png.jpg" height="400px" width="100%" alt="img4" />
+          <h2 className="text">Camp Fire</h2>
         </Carousel.Item>
+        
       </Carousel>
     </div>
   )
