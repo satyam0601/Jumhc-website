@@ -55,3 +55,9 @@ export const Heading = styled.p`
   margin-bottom: 15px;
   font-weight: bold;
 `;
+
+export const Paragraph = styled.p`
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+`;

@@ -6,7 +6,9 @@ import {
   Column,
   FooterLink,
   Heading,
+  Paragraph,
 } from "./FooterStyles";
+import Form from "../Form/Form";
 
 const Footer = () => {
   return (
@@ -18,6 +20,7 @@ const Footer = () => {
         <Row>
           <Column>
             <Heading>About Us</Heading>
+            <Paragraph>Lorem Ipsum</Paragraph>
           </Column>
           <Column>
             <Heading>Social Media</Heading>
@@ -31,6 +34,9 @@ const Footer = () => {
                 <span style={{ marginLeft: "10px" }}>Instagram</span>
               </i>
             </FooterLink>
+          </Column>
+          <Column>
+            <Form />
           </Column>
         </Row>
       </Container>
