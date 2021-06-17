@@ -7,26 +7,44 @@ function imageslider()
 {
   return(
     <div>
-      <Carousel interval="2000">
-        
-        <Carousel.Item >
-          <img className="img" src="day1.png.jpg" height="400px" width="100%" alt="img1"/>
-          <h2 className="text">First Day Of RCC</h2>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="img"  src="rope.png.jpg" height="400px" width="100%" alt="img2"/>
-          <h2 className="text">Rope Class</h2>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="img" src="map.png.jpg" height="400px" width="100%" alt="img3"/>
-          <h2 className="text">Map Class</h2>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="img" src="cpm.png.jpg" height="400px" width="100%" alt="img4" />
-          <h2 className="text">Camp Fire</h2>
-        </Carousel.Item>
-        
-      </Carousel>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="day1.jpg" class="d-block w-100" alt="sliding_image"/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>JADAVPUR UNIVERSITY MOUNTAINEERING AND HIKING CLUB</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="map.jpg" class="d-block w-100" alt="sliding_image"/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>SJADAVPUR UNIVERSITY MOUNTAINEERING AND HIKING CLUB</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="r1.jpg" class="d-block w-100" alt="sliding_image"/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>JADAVPUR UNIVERSITY MOUNTAINEERING AND HIKING CLUB</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
     </div>
   )
 }
