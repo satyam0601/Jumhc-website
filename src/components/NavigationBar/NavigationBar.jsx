@@ -12,7 +12,7 @@ function NavigationBar() {
             src="jumhc-logo.jpeg"
             width="60"
             height="60"
-            className="d-inline-block border border-2 border-dark"
+            className="d-inline-block border border-2 border-dark rounded-circle"
           />{" "}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
