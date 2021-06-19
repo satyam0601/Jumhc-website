@@ -1,7 +1,14 @@
 .nav-brand {
   margin-left: 10rem;
+  font-size: 10px;
 }
 
 .nav-elements {
-  margin-left: 10rem;
+  margin-left: 4rem;
+}
+
+.navbar-link-text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 2rem;
 }
