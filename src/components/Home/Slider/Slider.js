@@ -1,53 +1,31 @@
-import React from "react";
-import { Carousel } from "react-bootstrap";
-import "./slider.css";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/swiper.min.css";
+import "swiper/components/navigation/navigation.min.css";
+
+import "./Slider.css";
+import SwiperCore, { Navigation } from "swiper/core";
+SwiperCore.use([Navigation]);
 
 function Slider() {
   return (
-    <div>
-      <Carousel>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="img1.jpg"
-            alt="First slide"
-            height="550px"
-          />
-          <Carousel.Caption>
-            <h1>JADAVPUR UNIVERSITY MOUNTAINEERING AND HIKING CLUB</h1>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="img2.jpg"
-            alt="Second slide"
-            height="550px"
-          />
-
-          <Carousel.Caption>
-            <h1>JADAVPUR UNIVERSITY MOUNTAINEERING AND HIKING CLUB</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="img3.jpg"
-            alt="Third slide"
-            height="550px"
-          />
-
-          <Carousel.Caption>
-            <h1>JADAVPUR UNIVERSITY MOUNTAINEERING AND HIKING CLUB</h1>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
-    </div>
+    <>
+      <Swiper navigation={true} loop={true} className="mySwiper">
+        <SwiperSlide>
+          <img src="img1.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="img2.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="img3.jpg" />
+        </SwiperSlide>
+      </Swiper>
+    </>
   );
 }
+
 export default Slider;
