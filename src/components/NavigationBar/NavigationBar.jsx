@@ -27,8 +27,11 @@ function NavigationBar() {
             <Nav.Link href="#z" className="navbar-link-text">
               RCC
             </Nav.Link>
+            <Nav.Link href="#z" className="navbar-link-text">
+              Trek
+            </Nav.Link>
             <Nav.Link href="#w" className="navbar-link-text">
-              Expeditions
+              Expedition
             </Nav.Link>
             <Nav.Link href="#a" className="navbar-link-text">
               Contact Us
