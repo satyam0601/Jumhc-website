@@ -1,33 +1,41 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMountain } from "@fortawesome/free-solid-svg-icons";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
+import "./NavigationBar.css";
 
 function NavigationBar() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
-      <Container>
-        <Navbar.Brand>JUMHC</Navbar.Brand>
+    <Navbar expand="md">
+      <div className="container">
+        <Navbar.Brand href="#x" className="nav-brand">
+          <img
+            alt=""
+            src="jumhc-logo.jpeg"
+            width="60"
+            height="60"
+            className="d-inline-block border border-2 border-dark rounded-circle"
+          />{" "}
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About us</Nav.Link>
-            <Nav.Link href="#link">Blog</Nav.Link>
-            <NavDropdown title="Events" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">RCC</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Expeditions
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Treks</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Practice/Training
-              </NavDropdown.Item>
-            </NavDropdown>
+        <Navbar.Collapse id="basic-navbar-nav" className="">
+          <Nav activeKey="/x" className="nav-elements">
+            <Nav.Link href="#x" className="navbar-link-text">
+              Home
+            </Nav.Link>
+            <Nav.Link href="#y" className="navbar-link-text">
+              About Us
+            </Nav.Link>
+            <Nav.Link href="#z" className="navbar-link-text">
+              RCC
+            </Nav.Link>
+            <Nav.Link href="#w" className="navbar-link-text">
+              Expeditions
+            </Nav.Link>
+            <Nav.Link href="#a" className="navbar-link-text">
+              Contact Us
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      </div>
     </Navbar>
   );
 }
