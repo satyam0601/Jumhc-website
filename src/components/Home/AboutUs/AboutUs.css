@@ -2,24 +2,25 @@
 .home_aboutus{
   width:auto;
   height:100vh;
-  
+  background:#F0FFFF;
   text-align:center;
   margin-left:25px;
   margin-right:25px;
-}
-.paragraph{
-  background: palegreen;
-  display:flex;
-  text-align:center;
-  margin-left:10px;
-  margin-right:10px;
-  font-size:18px;
-  font-weight:initial;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-}
-div.sp{
-  font-family:Arial, Helvetica, sans-serif;
+  
 }
 h1.heading{
   font-weight: 600;
 }
+div p{
+  font-size: 15px;
+}
+button{
+  background:#F0FFFF;
+  border-radius: 5px;
+  cursor: pointer;
+  color:black;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+ 
