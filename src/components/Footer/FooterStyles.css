@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.box {
+  padding: 80px 60px;
+  background: #222930;
+  position: absolute;
+  max-height: 50vh;
+  bottom: 0;
+  width: 100%;
+
+  @media (max-width: 100px) {
+    padding: 7px, 3px;
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 60px;
+}

@@ -1,31 +1,43 @@
 import React from "react";
-import { FormGroup, Label, Input, TextArea } from "./FormStyles";
+import "./FormStyles.css";
 
 const Form = () => {
   return (
     <div>
       {" "}
-      <FormGroup>
-        <Label htmlFor="label">Email Address</Label>
-        <Input id="label" type="email" placeholder="Enter email" />
-      </FormGroup>
-      <FormGroup>
-        <Label>Name</Label>
-        <Input id="name" type="text" placeholder="EnterName"></Input>
-      </FormGroup>
-      <FormGroup>
-        <TextArea
+      <form className="form">
+        <label className="label" htmlFor="label">
+          Email Address
+        </label>
+        <input
+          className="input"
+          id="label"
+          type="email"
+          placeholder="Enter email"
+        />
+      </form>
+      <form className="form">
+        <label className="label">Name</label>
+        <input
+          className="input"
+          id="name"
+          type="text"
+          placeholder="EnterName"
+        ></input>
+      </form>
+      <form className="form">
+        <textarea
           className="form-control"
           id="name"
           placeholder="Message"
           rows="4"
-        ></TextArea>
-      </FormGroup>
-      <FormGroup>
+        ></textarea>
+      </form>
+      <form className="form">
         <button type="submit" class="btn btn-primary">
           Submit
         </button>
-      </FormGroup>
+      </form>
     </div>
   );
 };
