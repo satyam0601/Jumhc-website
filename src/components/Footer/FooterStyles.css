@@ -25,3 +25,31 @@
   text-align: left;
   margin-left: 60px;
 }
+
+.row {
+  margin-bottom: -150px;
+}
+.heading1 {
+  color: #4eb1ba;
+  margin-top: -50px;
+  font-size: 30px;
+  margin-left: 50px;
+}
+.heading2 {
+  color: #4eb1ba;
+  margin-top: -15px;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.para1 {
+  color: #fff;
+  margin-left: -198px;
+  margin-top: -80px;
+}
+
+.copyright {
+  color: #fff;
+  margin-left: -210px;
+  margin-top: 50px;
+}
