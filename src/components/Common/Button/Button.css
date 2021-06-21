@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.common-btn:hover {
+  background-color: rgb(189, 189, 189);
+  color: rgb(49, 49, 49);
+  font-weight: 2px;
+}
+
+.common-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  width: 138px;
+  height: 36px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: rgb(189, 189, 189);
+  border: 2px solid rgb(189, 189, 189);
+  border-radius: 2px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  font-weight: 2px;
+  letter-spacing: 1.7px;
+}

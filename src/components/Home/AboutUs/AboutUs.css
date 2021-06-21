@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{margin:0;box-sizing: border-box;}
 .home_aboutus{
   width:auto;
@@ -10,6 +11,30 @@
 }
 h1.heading{
   font-weight: 600;
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-us {
+  position: relative;
+  top: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  height: 40vh;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: rgb(189, 189, 189);
+}
+
+.events {
+  display: flex;
+>>>>>>> 170054472962fe15d33b1ac538275ad1b9bbf0a7
 }
 div p{
   font-size: 15px;
