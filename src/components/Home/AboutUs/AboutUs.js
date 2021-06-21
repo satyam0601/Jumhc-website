@@ -1,27 +1,40 @@
-import React from 'react';
-import './AboutUs.css';
+import React from "react";
+import "./AboutUs.css";
+import Button from "../../Common/Button/Button";
 
-function AboutUs()
-{
-  return(
+function AboutUs() {
+  return (
     <>
-      <div className="home_aboutus">
-         <h1 className="heading">WHAT IS JUMHC ?  </h1>
-        
-         <div className="sp">
+      <div className="container">
+        <div className="about-us">
+          <h1 className="heading">WHAT IS JUMHC ? </h1>
 
-            <p>This is one of the oldest student run Mountaineering and Hiking Club in India,      
-                Jadavpur University Mountaineering and Hiking Club (JUMHC)       
-              </p>
+          <div className="sp">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
 
-              <p>is one of the official club and societies of Jadavpur University. Founded in 1966 under the initiative of *******************and associates . . . .</p>                                            
-                           
+            <p className="sp">
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum
+            </p>
 
-            <p>Our two major events are <strong>RCC</strong> and <strong>Expedition</strong></p>
-         </div>
-         <div>
-          <a href="#">read more</a>
+            <p className="sp">
+              Our two major events are <strong className="rcc">RCC</strong> and{" "}
+              <strong className="rcc">Expedition</strong>
+            </p>
           </div>
+          <Button href="#about-us">Read More</Button>
+        </div>
       </div>
     </>
   );

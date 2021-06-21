@@ -15,13 +15,13 @@ function Slider() {
     <>
       <Swiper navigation={true} loop={true} className="mySwiper">
         <SwiperSlide>
-          <img src="img1.jpg" />
+          <img src="images/img1.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="img2.jpg" />
+          <img src="images/img2.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="img3.jpg" />
+          <img src="images/img3.jpg" />
         </SwiperSlide>
       </Swiper>
     </>

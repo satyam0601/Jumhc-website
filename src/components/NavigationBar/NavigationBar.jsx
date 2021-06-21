@@ -1,45 +1,57 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+//import { Navbar, Nav } from "react-bootstrap";
+import { useState } from "react";
 import "./NavigationBar.css";
 
 function NavigationBar() {
+  const [navShow, setNavShow] = useState(false);
+
+  const handleBurgerClick = () => {
+    setNavShow(!navShow);
+  };
+
+  const getNavClases = () => {
+    return navShow ? "nav-links nav-active" : "nav-links";
+  };
+
+  const getBurgerClases = () => {
+    return navShow ? "burger-toggler burger-cross" : "burger-toggler";
+  };
+
   return (
-    <Navbar expand="md">
-      <div className="container">
-        <Navbar.Brand href="#x" className="nav-brand">
-          <img
-            alt=""
-            src="jumhc-logo.jpeg"
-            width="60"
-            height="60"
-            className="d-inline-block border border-2 border-dark rounded-circle"
-          />{" "}
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="">
-          <Nav activeKey="/x" className="nav-elements">
-            <Nav.Link href="#x" className="navbar-link-text">
-              Home
-            </Nav.Link>
-            <Nav.Link href="#y" className="navbar-link-text">
-              About Us
-            </Nav.Link>
-            <Nav.Link href="#z" className="navbar-link-text">
-              RCC
-            </Nav.Link>
-            <Nav.Link href="#z" className="navbar-link-text">
-              Trek
-            </Nav.Link>
-            <Nav.Link href="#w" className="navbar-link-text">
-              Expedition
-            </Nav.Link>
-            <Nav.Link href="#a" className="navbar-link-text">
-              Contact Us
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+    <nav>
+      <div className="nav-element-container">
+        <div className="nav-logo">
+          <a href="#home">
+            <h4 id="Ju">JU</h4>
+            <img src="logo/jumhc-logo.jpeg" className="logo-image" />
+            <h4 id="Hc">HC</h4>
+          </a>
+        </div>
+        <ul className={getNavClases()}>
+          <li>
+            <a href="#home">HOME</a>
+          </li>
+          <li>
+            <a href="#home">ABOUT US</a>
+          </li>
+          <li>
+            <a href="#home">RCC</a>
+          </li>
+          <li>
+            <a href="#home">EXPEDITION</a>
+          </li>
+          <li>
+            <a href="#home">TREKS</a>
+          </li>
+        </ul>
+        <div className={getBurgerClases()} onClick={handleBurgerClick}>
+          <div className="burger-line" id="line1"></div>
+          <div className="burger-line" id="line2"></div>
+          <div className="burger-line" id="line3"></div>
+        </div>
       </div>
-    </Navbar>
+    </nav>
   );
 }
 
