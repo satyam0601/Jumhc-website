@@ -1,14 +1,14 @@
 import NavigationBar from "./components/NavigationBar/NavigationBar";
-//import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
 import Home from "./components/Home/Home";
-//import Button from "./components/Common/Button/Button";
+import Footer from "./components/Footer/Footer";
+import React from "react";
 
 function App() {
   return (
     <>
       <NavigationBar />
       <Home />
+      <Footer />
     </>
   );
 }
