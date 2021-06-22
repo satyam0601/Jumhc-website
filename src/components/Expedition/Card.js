@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../Common/Button/Button';
-
+import './Card.css';
 function Card(props)
 {
   return(
@@ -8,9 +8,8 @@ function Card(props)
       <div className="card">
         <img src={props.imgsec} alt="image"/>
         <div className="card_info">
-          <span className="card_title">{props.title}</span>
           <h2 className="card_name">{props.name}</h2>
-          <a href={props.bloglink} target="_blank">
+          <a className="buttonc" href={props.bloglink} target="_blank">
           <Button>Read More</Button>
           </a>
         </div>

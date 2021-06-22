@@ -7,10 +7,7 @@ function Expedition()
   return (
     <div className="container">
        {/* <Slider /> */}
-        <h1 className="slider">this is expedition slider</h1>
-      
-     
-         <div className="sp">
+         <div className="exdetails">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -39,13 +36,11 @@ function Expedition()
           <div className="card_container ">
             <Card 
             imgsrc="rope.jpg"
-            title="expedition image 2019"
             imgname="base_camp1"
             link="blog_link"
             />
             <Card
             imgsrc="map.jpg"
-            title="expedition image 2019"
             imgname="base_camp1"
             link="blog_link"
             />
