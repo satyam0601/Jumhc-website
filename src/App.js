@@ -3,6 +3,9 @@ import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
 import React from "react";
 
+document.body.style.width = "100vw";
+document.body.style.overflowX = "hidden";
+
 function App() {
   return (
     <>
