@@ -6,13 +6,12 @@
 
 .about-us {
   position: relative;
-  top: 3vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 70%;
-  height: 40vh;
+  width: 100%;
+  height: 50vh;
   text-align: center;
   font-family: "Poppins", sans-serif;
   color: rgb(189, 189, 189);
