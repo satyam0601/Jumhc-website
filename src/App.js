@@ -4,8 +4,6 @@ import Footer from "./components/Footer/Footer";
 import React from "react";
 import Expedition from "./components/Expedition/Expedition";
 
-document.body.style.width = "100vw";
-document.body.style.overflowX = "hidden";
 
 function App() {
   return (
