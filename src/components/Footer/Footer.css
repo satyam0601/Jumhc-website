@@ -21,6 +21,11 @@
   align-items: center;
 }
 
+.footer-container a {
+  text-decoration: none;
+  color: white;
+}
+
 .contributors {
   width: 70%;
   height: 10%;
@@ -41,11 +46,6 @@
   width: 60%;
   display: flex;
   justify-content: space-between;
-}
-
-a {
-  text-decoration: none;
-  color: white;
 }
 
 .contact-us {
@@ -72,6 +72,7 @@ a {
 }
 
 .contributors a {
+  text-decoration: none;
   color: rgb(158, 158, 158);
   margin-left: 5px;
   margin-right: 5px;
