@@ -36,7 +36,6 @@ function AboutUs() {
           <Button href="#about-us">Read More</Button>
         </div>
       </div>
-    </>
-  );
+    </>);
 }
 export default AboutUs;

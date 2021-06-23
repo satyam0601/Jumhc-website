@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(41, 41, 41);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 313px;
+  width: 290px;
+  margin-left: 10px;
+  background-color: rgb(31, 31, 31);
+  margin-top: 10px;
+  cursor: pointer;
+  border: 1px solid rgb(51, 51, 51);
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image {
+  display: flex;
+  height: 50%;
+  width: 100%;
+}
+
+.image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50%;
+  width: 90%;
+  padding: 3px;
+  color: rgb(209, 209, 209);
+}
+
+.blog-content h1 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.blog-content p {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  text-align: left;
+}

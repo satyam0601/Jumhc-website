@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.exp-container {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 150vh;
+  justify-content: space-around;
+}
+
+.exp-heading {
+  font-family: "Poppins", sans-serif;
+}
+
+.exp-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.blog-card-container {
+  display: flex;
+  width: 100%;
+}
