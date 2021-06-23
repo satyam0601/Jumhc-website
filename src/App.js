@@ -5,13 +5,7 @@ import Expedition from "./components/Expedition/Expedition";
 import React from "react";
 
 function App() {
-  return (
-    <>
-      <NavigationBar />
-      <Home />
-      <Footer />
-    </>
-  );
+  return <></>;
 }
 
 export default App;
