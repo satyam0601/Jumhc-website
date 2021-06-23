@@ -13,7 +13,6 @@ nav {
   min-height: 10vh;
   background-color: rgb(233, 233, 233);
   font-family: "Poppins", sans-serif;
-
   z-index: 9999;
 }
 
@@ -74,10 +73,6 @@ nav {
 }
 
 @media only screen and (max-width: 1140px) {
-  body {
-    overflow: hidden;
-  }
-
   .nav-links {
     position: absolute;
     right: 0;
