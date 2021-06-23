@@ -38,7 +38,7 @@ function NavigationBar() {
           <li>
             <a href="#rcc">RCC</a>
           </li>
-          <li>
+          <li>  
             <a href="#expedition">EXPEDITION</a>
           </li>
           <li>
