@@ -33,16 +33,16 @@ function NavigationBar() {
             <a href="#home">HOME</a>
           </li>
           <li>
-            <a href="#home">ABOUT US</a>
+            <a href="#about-us">ABOUT US</a>
           </li>
           <li>
-            <a href="#home">RCC</a>
+            <a href="#rcc">RCC</a>
           </li>
           <li>
-            <a href="#home">EXPEDITION</a>
+            <a href="#expedition">EXPEDITION</a>
           </li>
           <li>
-            <a href="#home">TREKS</a>
+            <a href="#treks">TREKS</a>
           </li>
         </ul>
         <div className={getBurgerClases()} onClick={handleBurgerClick}>
