@@ -18,7 +18,7 @@ function AboutUsPage() {
             culpa qui officia deserunt mollit anim id est sdhdfg yu hjdjgfy
           </p>
         </div>
-        <div className="image-container">
+        <div className="aboutus-image-container">
           <img src="#photo" width="950" height="700"></img>
         </div>
         <div className="about-us-content">

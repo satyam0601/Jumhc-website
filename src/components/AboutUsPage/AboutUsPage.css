@@ -8,7 +8,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.image-container {
+.aboutus-image-container {
   align-items: center;
   position: relative;
   margin-top: 10px;
@@ -20,7 +20,6 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 70%;
   font-family: "Poppins", sans-serif;
   color: white;
 }

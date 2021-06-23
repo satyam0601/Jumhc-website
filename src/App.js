@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <NavigationBar />
-      <Home />
+      <AboutUsPage />
       <Footer />
     </>
   );
