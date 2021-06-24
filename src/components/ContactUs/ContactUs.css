@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-us-container a {
+  text-decoration: none;
+  color: rgb(189, 189, 189);
+}
+
+.contact-us-container {
+  position: relative;
+  width: 70%;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px 2vw;
+  color: rgb(189, 189, 189);
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.google-map {
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.social-media-handle {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1140px) {
+  .contact-us-container {
+    height: 130vh;
+    width: 90%;
+    grid-gap: 3vh 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .social-media-handle {
+    width: 100%;
+  }
+}
