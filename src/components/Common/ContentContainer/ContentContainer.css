@@ -1,9 +1,11 @@
 .content-container {
+  position: relative;
   width: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }

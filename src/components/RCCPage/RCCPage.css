@@ -6,26 +6,25 @@
 
 .rcc-page-heading {
   font-family: "Poppins", sans-serif;
-  margin-bottom: 30px;
-  margin-top: -200px;
 }
 
-.rcc-image-container {
-  align-items: center;
-  position: relative;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 70%;
+.rcc-image-container img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .rcc-page-container {
   display: flex;
-  width: 70%;
-  height: 90%;
   flex-direction: column;
+  width: 70%;
+  height: 200vh;
   align-items: center;
   justify-content: space-between;
   color: rgb(189, 189, 189);
-  padding-top: 170px;
-  padding-bottom: 170px;
+}
+
+@media only screen and (max-width: 1140px) {
+  .rcc-page-container {
+    width: 90%;
+  }
 }

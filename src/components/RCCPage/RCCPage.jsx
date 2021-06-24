@@ -17,11 +17,7 @@ function RCCPage() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est sdhdfg yu hjdjgfy
         </p>
-
-        <div className="rcc-image-container">
-          <img src="#photo" width="950" height="700"></img>
-        </div>
-
+        <img src="#photo"></img>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -32,9 +28,7 @@ function RCCPage() {
           culpa qui officia deserunt mollit anim id est sdhdfg yu hjdjgfy
         </p>
 
-        <div className="rcc-image-container">
-          <img src="#photo" width="950" height="700"></img>
-        </div>
+        <img src="#photo"></img>
 
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
