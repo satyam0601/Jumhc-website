@@ -83,3 +83,37 @@
   margin-left: 5px;
   margin-right: 5px;
 }
+@media only screen and (max-width: 1140px){
+  .footer-content{
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+    block-size:fit-content;
+    height:auto;
+    background-color:black
+  } 
+  .info{
+    width:90%;
+    margin-top: 10px;
+  }
+  .contact-us{
+    width: 90%;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .footer-content{
+    flex-direction: column;
+    width: 90%;
+    block-size:fit-content;
+    height:auto;
+    background-color:black
+  } 
+  .info{
+    width:90%;
+  }
+  .contact-us{
+    width: 90%;
+  }
+ 
+}
