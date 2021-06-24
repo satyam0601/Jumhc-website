@@ -17,6 +17,7 @@ function RCCPage() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est sdhdfg yu hjdjgfy
         </p>
+
         <div className="rcc-image-container">
           <img src="#photo" width="950" height="700"></img>
         </div>

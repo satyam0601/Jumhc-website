@@ -7,6 +7,7 @@
 .rcc-page-heading {
   font-family: "Poppins", sans-serif;
   margin-bottom: 30px;
+  margin-top: -200px;
 }
 
 .rcc-image-container {
@@ -17,13 +18,28 @@
   width: 70%;
 }
 
+/* .rcc-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding-left: 170px;
+  padding-right: 170px;
+} */
+
 .rcc-page-container {
   display: flex;
   width: 70%;
+  height: 90%;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   color: rgb(189, 189, 189);
-  padding-left: 170px;
-  padding-right: 170px;
+  padding-top: 170px;
+  padding-bottom: 170px;
 }
