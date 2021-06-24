@@ -18,20 +18,6 @@
   width: 70%;
 }
 
-/* .rcc-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  padding-left: 170px;
-  padding-right: 170px;
-} */
-
 .rcc-page-container {
   display: flex;
   width: 70%;
