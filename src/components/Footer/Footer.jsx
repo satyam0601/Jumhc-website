@@ -38,6 +38,7 @@ function Footer() {
           <Form />
         </div>
       </div>
+      
       <div className="copyright">
         © 2021 Jadavpur University Mountaineering and hiking club
       </div>
@@ -46,6 +47,7 @@ function Footer() {
         <a href="#sm-handle">SatyamG</a>
         <a href="#sm-handle">EhteshamK</a>
       </div>
+      
     </div>
   );
 }

@@ -83,3 +83,34 @@
   margin-left: 5px;
   margin-right: 5px;
 }
+@media only screen and (max-width: 560px){
+  .footer-content{
+    flex-direction: column;
+    width: 100%;
+    block-size:fit-content;
+    height:auto;
+    background-color:black
+  } 
+  .info{
+    width:45%;
+  }
+  .contact-us{
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .footer-content{
+    flex-direction: column;
+    width: 100%;
+    block-size:fit-content;
+    height:auto;
+    background-color:black
+  } 
+  .info{
+    width:60%;
+  }
+  .contact-us{
+    width: 60%;
+  }
+ 
+}
