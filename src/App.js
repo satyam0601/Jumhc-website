@@ -7,12 +7,15 @@ import React from "react";
 import RCCPage from "./components/RCCPage/RCCPage";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Trek from "./components/Trek/Trek";
+import OutdoorIndoor from './components/OutdoorIndoor/OutdoorIndoor';
 
 function App() {
   return (
     <>
       <NavigationBar />
-      <Trek />
+      {/*<Trek />*/}
+      <Home/>
+      <OutdoorIndoor/>
       <Footer />
     </>
   );
