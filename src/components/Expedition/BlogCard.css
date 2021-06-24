@@ -11,9 +11,7 @@
   align-items: center;
   height: 313px;
   width: 290px;
-  margin-left: 10px;
   background-color: rgb(31, 31, 31);
-  margin-top: 10px;
   cursor: pointer;
   border: 1px solid rgb(51, 51, 51);
 }
