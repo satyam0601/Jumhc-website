@@ -19,7 +19,7 @@ function ContactUs() {
           </p>
           <a href="#email">email@email.com</a>
           <p>Phone no: (+91)9872598343</p>
-          <div className="social-media-handles">
+          <div className="social-media-handle">
             <a href="#ig-handle">
               <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
