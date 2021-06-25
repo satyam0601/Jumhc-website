@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.pagecontent {
+  justify-items: center;
+  color: rgb(189, 189, 189);
+  width: 70%;
+}
+.pagecontent img {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.pagecontent .heading{
+  text-align: center;
+}
