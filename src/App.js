@@ -15,7 +15,6 @@ function App() {
       <NavigationBar />
       <Trek />
       <Home/>
-      {/*<OutdoorIndoor/>*/}
       <Footer />
     </>
   );
