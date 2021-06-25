@@ -1,6 +1,6 @@
 import React from 'react';
 import './OutdoorIndoor.css';
-import ContentContainer from '../Common/ContentContainer/ContentContainer';
+import ContentContainer from '../../Common/ContentContainer/ContentContainer';
 function OutdoorIndoor()
 {
   return(
