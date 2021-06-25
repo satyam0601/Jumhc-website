@@ -1,9 +1,9 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-.pagecontent{
+.pagecontent {
   margin-top: 1px;
   width: 70%;
   background-color: white;
@@ -13,36 +13,36 @@
   flex-direction: column;
   font-family: "Poppins", sans-serif;
 }
-.indoorimg{
+.indoorimg {
   width: 60%;
   height: 70vh;
 }
-.indoorcontent{
+.indoorcontent {
   position: relative;
   width: 100%;
   height: auto;
   text-align: center;
- float: left;
+  float: left;
 }
-.outdorcontent{
+.outdorcontent {
   position: relative;
   width: 100%;
   height: auto;
   text-align: center;
- float: left;
+  float: left;
 }
-.naturalcontent{
+.naturalcontent {
   position: relative;
   width: 100%;
   height: auto;
   text-align: center;
- float: left;
+  float: left;
 }
-.outdoorimg{
+.outdoorimg {
   width: 60%;
   height: 70vh;
 }
-.naturalimg{
+.naturalimg {
   width: 60%;
   height: 70vh;
 }
