@@ -1,11 +1,10 @@
 import React from 'react';
 import './OutdoorIndoor.css';
-import ContentContainer from '../../Common/ContentContainer/ContentContainer';
+
 function OutdoorIndoor()
 {
   return(
     <>
-    <ContentContainer>
       <div className="pagecontent">
         <h1 className="heading">INDOOR CONTENT</h1>
         <img
@@ -83,7 +82,6 @@ function OutdoorIndoor()
             nemo,
           </p>
       </div>
-    </ContentContainer>
     </>
   );
 }
